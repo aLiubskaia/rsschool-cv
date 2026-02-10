@@ -4,7 +4,7 @@
 *a.liubskaia@gmail.com*\
 *Discord nickname: Anastasiia (@aLiubskaia)*\
 *[Behance](https://www.behance.net/nasyalubskaja)*\
-*[Telegram](https://t.me/aliubskaia)*
+*[GitHub](https://github.com/aLiubskaia)*
 ## Summary
 I am a practicing graphic designer and photographer. For a long time I tried to get a job in the company's staff as a designer, but several attempts were unsuccessful. Freelancing also requires me to constantly be a kind of marketer, which I don't really want to do.\
 I came into development not only because of a desire to work full-time, but also because of an interest in UI/UX and a desire to write my own web application someday. It is common for me to unsuccessfully search for a service that is necessary and convenient for me, but there is no such thing or the existing ones have fatal flaws for me.\
@@ -17,29 +17,36 @@ Adobe Photoshop, Illustrator, InDesign, Figma (Autolayout, Components, Plugins),
 **Front-End Development:**\
 Git, GitHub, VS Code.
 ## Code Example
+```
+function multiply(a, b){
+  return a * b
+}
+```
 ## Experience
-* **Design** | *May 2021 — Present*
-    * Marketing Agencies\
+**Design**, *May 2021 — Present*
+* Marketing Agencies\
     Create social media designs and templates, targeted ad creatives, promotional materials.\
     Prepare print-ready layouts.\
     Develop brand guidelines and templates for clients, account managers, and SMM specialists.\
     Edit short videos.
-    * Freelance\
+* Freelance\
     Work with corporate identity and visual branding for major companies across diverse industries — from construction and energy to fragrance and hospitality.\
     Handle a broad range of design requests — from technical drawings and interior navigation systems to pictograms, icons, and 3D graphics.
-* **Freelance Photography** | *Jan 2025 — Present*
-    * Organize individual photoshoots, assist with styling and location selection.
-    * Build and manage small creative teams (makeup artists, models), including in new cities.
-    * Handle both studio and outdoor photoshoots.
-    * Perform color correction and natural retouching.
-    * Create collages and edit Reels showcasing my works.
-    * Shoot and edit behind-the-scenes videos.
+
+**Freelance Photography**, *Jan 2025 — Present*
+* Organize individual photoshoots, assist with styling and location selection.
+ * Build and manage small creative teams (makeup artists, models), including in new cities.
+* Handle both studio and outdoor photoshoots.
+* Perform color correction and natural retouching.
+* Create collages and edit Reels showcasing my works.
+* Shoot and edit behind-the-scenes videos.
 ## Education
-* **Southern Federal University**
-    * Graphic Design
-    * Rostov-on-Don — Bachelor, 2019 - 2023
-* **RS School** *in progress*
-    * Front-End Development
+**Southern Federal University**
+* Graphic Design
+* Rostov-on-Don — Bachelor, 2019 - 2023
+
+**RS School**, *in progress*
+* Front-End Development
 
 ## Languages
 * **Russian** Native
