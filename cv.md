@@ -40,7 +40,9 @@ function multiply(a, b){
 * Perform color correction and natural retouching.
 * Create collages and edit Reels showcasing my works.
 * Shoot and edit behind-the-scenes videos.
+
 ## Education
+
 **Southern Federal University**
 * Graphic Design
 * Rostov-on-Don — Bachelor, 2019 - 2023
