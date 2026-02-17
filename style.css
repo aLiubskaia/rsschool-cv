@@ -1,6 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: Inter-Tight;
     src: url(assets/fonts/InterTight-VariableFont_wght.ttf);
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
 
 .bold-text {
@@ -19,16 +29,34 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1080px;
   margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    gap: 60px;
+}
+
+.section {
+    width: 50%;
 }
 
 .nav-list {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 
     list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF4500;
 }
 
 .nav-link {
