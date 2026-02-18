@@ -13,6 +13,11 @@ html {
   }
 }
 
+h1 {
+  font-size: 300%;
+  margin: 0;
+}
+
 .bold-text {
     font-weight: bold;
 }
@@ -33,20 +38,28 @@ body {
   margin: 0 auto;
 }
 
-.flex {
+.header {
     display: flex;
-    gap: 60px;
+    flex-direction: row;
+    gap: 40px;
 }
 
-.section {
-    width: 50%;
+.placeholder {
+    width: 30%;
+}
+
+.nav {
+    width: 70%;
 }
 
 .nav-list {
+    max-width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -59,9 +72,39 @@ a:hover {
     color: #FF4500;
 }
 
+.nav-item {
+    flex-grow: 1;
+}
+
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.contacts {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.information {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
 }
 
 .code {
