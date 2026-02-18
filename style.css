@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -8,14 +8,14 @@ html {
 }
 
 @media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
+    .section {
+        width: 100%;
+    }
 }
 
 h1 {
-  font-size: 300%;
-  margin: 0;
+    font-size: 300%;
+    margin: 0;
 }
 
 .bold-text {
@@ -29,13 +29,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     font-family: 'Inter-Tight';
 }
 
 .container {
-  max-width: 1080px;
-  margin: 0 auto;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .header {
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .nav-link {
-  padding: 0 0px;
+    padding: 0 0px;
 }
 
 .column {
@@ -94,9 +94,9 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .information {
@@ -130,6 +130,10 @@ img {
     gap: 20px;
 }
 
-#Layer_1 {
-    max-width: 150px;
+#logo-rs {
+    width: 150px;
+}
+
+a:hover #logo-rs path[fill="black"] {
+    fill: #32CD32;
 }
