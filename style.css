@@ -7,12 +7,6 @@ html {
     src: url(assets/fonts/InterTight-VariableFont_wght.ttf);
 }
 
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-}
-
 h1 {
     font-size: 300%;
     margin: 0;
@@ -52,12 +46,9 @@ body {
     gap: 40px;
 }
 
-.placeholder {
-    width: 30%;
-}
-
 .nav {
-    width: 70%;
+    width: 65%;
+    padding-left: 35%;
 }
 
 .nav-list {
@@ -87,7 +78,7 @@ a:hover {
 .big-block {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 5%;
     margin-top: 20px;
 }
 
@@ -96,7 +87,7 @@ a:hover {
 }
 
 .right-block {
-    width: 70%;
+    width: 65%;
     border-bottom: 1px solid;
 }
 
@@ -140,21 +131,21 @@ img {
 }
 
 #languages-section {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .footer {
     min-height: 120px;
     display: flex;
     flex-direction: row;
-    gap: 40px;
 }
 
 .footer-information {
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 35%;
     gap: 20px;
 }
 
@@ -164,4 +155,70 @@ img {
 
 a:hover #logo-rs path[fill="black"] {
     fill: #32CD32;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        line-height: 1;
+        padding-top: 30px;
+    }
+
+    .information-link {
+        color: #a4a4a4;
+    }
+
+    .header {
+        min-height: 20px;
+    }
+
+    .nav {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .big-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-block {
+        width: 100%;
+    }
+
+    .right-block {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .contact-information {
+        color: #a4a4a4;
+    }
+
+    #languages-section {
+        border-bottom: 1px solid;
+    }
+
+    .footer-information {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        min-width: 40px;
+    }
+    .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .nav-link {
+        padding-right: 20px;;
+    }
 }
