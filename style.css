@@ -22,6 +22,7 @@ h2 {
 }
 
 body {
+    overflow-x: hidden;
     min-height: 100vh;
     margin: 15px 25px;
     padding: 0;
@@ -126,8 +127,13 @@ img {
 }
 
 .code {
-    padding-left: 20px;
+    max-width: calc(100vw - 50px);
+    overflow-x: scroll;
     background-color: #F2F2F2;
+}
+
+.code pre {
+    padding: 0 30px;
 }
 
 #languages-section {
@@ -151,6 +157,7 @@ img {
 
 #logo-rs {
     width: 150px;
+    height: 60px;
 }
 
 a:hover #logo-rs path[fill="black"] {
