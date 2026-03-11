@@ -87,12 +87,16 @@
 
                 <section id="code-section">
                     <h2>Code Example</h2>
-                    <pre class="code">
+                    <div class="code">
+                        <pre>
                         <code>
-function multiply(a, b){
-    return a * b
-}</code>
+const isLeapYear = (year) => {
+  const result = (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
+  return result;
+};
+console.log(isLeapYear(2026));</code>
                     </pre>
+                    </div>
                 </section>
 
                 <section id="experience-section">
