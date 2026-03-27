@@ -90,11 +90,13 @@
                     <div class="code">
                         <pre>
                         <code>
-const isLeapYear = (year) => {
-  const result = (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
-  return result;
-};
-console.log(isLeapYear(2026));</code>
+function century(year) {
+    if (year % 100 === 0) {
+        return year / 100;
+    } else {
+        return Math.trunc(year / 100) + 1;
+    }
+}</code>
                     </pre>
                     </div>
                 </section>
